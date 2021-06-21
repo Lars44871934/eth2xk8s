@@ -11,7 +11,7 @@ spec:
     matchLabels:
       app: {{ .name }}
   replicas: 1
-  strategy: 
+  strategy:
     type: Recreate
   template:
     metadata:
