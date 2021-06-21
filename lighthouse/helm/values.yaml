@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 
 # Kubernetes namespace for lighthouse beacon chain and validator client deployments, services, secrets, etc.
-namespace: lighthouse
+namespace: ethereum
 
 # Specify which Ethereum 2.0 testnet to use. If the target network is mainnet, leave this field blank.
 ethereumTestnet: pyrmont
